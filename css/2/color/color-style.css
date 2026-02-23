@@ -1,0 +1,29 @@
+/* Nama warna */
+.nama-warna {
+  color: red;
+}
+
+/* RGB */
+.rgb {
+  color: rgb(0, 128, 255);
+}
+
+/* RGBA */
+.rgba {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+/* HSL */
+.hsl {
+  color: hsl(120, 100%, 30%);
+}
+
+/* HSLA */
+.hsla {
+  background-color: hsla(200, 100%, 50%, 0.4);
+}
+
+/* HEX */
+.hex {
+  color: #ff00ff;
+}

@@ -1,0 +1,14 @@
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAF3jvkhiHrC4W-Vu9J_0A1kvni4C5qZrj1w&s")
+    no-repeat center/cover fixed;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  text-align: center;
+}

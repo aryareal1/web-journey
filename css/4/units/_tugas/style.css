@@ -1,0 +1,28 @@
+/*
+ * [TODO]
+ * Gunakan minimal 5 jenis satuan CSS:
+ * px, %, em, rem, vw/vh
+ */
+
+header {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 1rem;
+  width: 50vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+}

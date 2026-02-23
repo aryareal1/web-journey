@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  line-height: 0;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+main div {
+  width: 5em;
+  height: 5em;
+  border: 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

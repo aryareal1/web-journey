@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --card-color: whitesmoke;
+}
+
+body {
+  width: 95%;
+  max-width: 50rem;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 650;
+  margin-block: 1rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#personal, #story, #skill-hobby {
+  background-color: var(--card-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.table-grid {
+  display: grid;
+  gap: 0.1rem;
+  background-color: lightgray;
+}
+
+#personal main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+}
+
+#personal .table-grid > p {
+  background-color: var(--card-color);
+  padding: 0.25rem 0.5em;
+}
+
+#personal .table-grid {
+  grid-template-columns: auto 1fr;
+}
+
+#personal img {
+  width: 100%;
+}
+
+#story p, #skill-hobby p {
+  text-align: justify;
+}
+
+footer {
+  margin-top: 0.75rem;
+}
+
+footer p {
+  font-size: 0.75rem;
+  text-align: center;
+  color: gray;
+}
