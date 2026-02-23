@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entity, Symbol &amp; Emoji</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+
+    h1, h2 {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #000;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    .emoji-gallery {
+      font-size: 2rem;
+      word-spacing: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Entity, Symbol &amp; Emoji</h1>
+
+  <h2>Apa itu HTML Entity?</h2>
+  <p>
+    HTML Entity adalah kode khusus yang digunakan untuk menampilkan karakter tertentu
+    yang tidak dapat diketik langsung atau memiliki makna khusus dalam HTML, seperti
+    tanda lebih kecil (&lt;) dan ampersand (&amp;). Entity biasanya diawali dengan
+    tanda ampersand (<code>&amp;</code>) dan diakhiri dengan titik koma (<code>;</code>).
+  </p>
+
+  <h2>Contoh HTML Entity</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Entity</th>
+        <th>Deskripsi</th>
+        <th>Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&amp;amp;</td>
+        <td>Tanda ampersand</td>
+        <td>&amp;</td>
+      </tr>
+      <tr>
+        <td>&amp;lt;</td>
+        <td>Tanda kurang dari</td>
+        <td>&lt;</td>
+      </tr>
+      <tr>
+        <td>&amp;gt;</td>
+        <td>Tanda lebih dari</td>
+        <td>&gt;</td>
+      </tr>
+      <tr>
+        <td>&amp;quot;</td>
+        <td>Tanda petik ganda</td>
+        <td>&quot;</td>
+      </tr>
+      <tr>
+        <td>&amp;apos;</td>
+        <td>Tanda petik tunggal</td>
+        <td>&apos;</td>
+      </tr>
+      <tr>
+        <td>&amp;copy;</td>
+        <td>Simbol hak cipta</td>
+        <td>&copy;</td>
+      </tr>
+      <tr>
+        <td>&amp;reg;</td>
+        <td>Simbol merek terdaftar</td>
+        <td>&reg;</td>
+      </tr>
+      <tr>
+        <td>&amp;euro;</td>
+        <td>Simbol mata uang Euro</td>
+        <td>&euro;</td>
+      </tr>
+      <tr>
+        <td>&amp;yen;</td>
+        <td>Simbol mata uang Yen</td>
+        <td>&yen;</td>
+      </tr>
+      <tr>
+        <td>&amp;hearts;</td>
+        <td>Simbol hati</td>
+        <td>&hearts;</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Daftar Simbol Matematika</h2>
+  <ul>
+    <li>&sum; (&amp;sum;) : simbol penjumlahan (sigma)</li>
+    <li>&prod; (&amp;prod;) : simbol perkalian (produktori)</li>
+    <li>&le; (&amp;le;) : kurang dari atau sama dengan</li>
+    <li>&ge; (&amp;ge;) : lebih dari atau sama dengan</li>
+    <li>&plusmn; (&amp;plusmn;) : plus atau minus</li>
+    <li>&times; (&amp;times;) : tanda kali</li>
+    <li>&divide; (&amp;divide;) : tanda bagi</li>
+    <li>&pi; (&amp;pi;) : konstanta pi</li>
+  </ul>
+
+  <h2>Galeri Emoji</h2>
+  <p>
+    Contoh emoji berikut ditulis menggunakan HTML entity desimal (kode <code>&amp;#...</code>):
+  </p>
+  <p class="emoji-gallery">
+    &#128512; <!-- 😀 -->
+    &#128513; <!-- 😁 -->
+    &#128514; <!-- 😂 -->
+    &#128515; <!-- 😃 -->
+    &#128516; <!-- 😄 -->
+    &#128517; <!-- 😅 -->
+    &#128518; <!-- 😆 -->
+    &#128519; <!-- 😇 -->
+  </p>
+</body>
+</html>

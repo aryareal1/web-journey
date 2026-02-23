@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Praktik Canvas</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Latihan Praktik Canvas</h1>
+
+    <h2>Menggambar Bentuk Dasar</h2>
+    <canvas id="shape" width="300" height="200"></canvas>
+    <script>
+      /** @type {HTMLCanvasElement} */
+      const c = document.getElementById("shape"),
+        ctx = c.getContext("2d");
+
+      ctx.beginPath();
+      ctx.fillStyle = "gray";
+      ctx.rect(100, 50, 100, 100);
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(150, 100, 30, 0, 2 * Math.PI);
+      ctx.stroke();
+      ctx.fillStyle = "black"
+      ctx.fill()
+
+      ctx.beginPath();
+      ctx.moveTo(80, 170);
+      ctx.lineTo(220, 170);
+      ctx.stroke();
+    </script>
+  </body>
+</html>

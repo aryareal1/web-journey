@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Play/Pause Manual dengan Javascript</title>
+</head>
+<body>
+  <video src="video.mp4" id="vid" width="400" poster="thumbnail.png" controls></video>
+  <br>
+  <button onclick="playVideo()">Play</button>
+  <button onclick="pauseVideo()">Pause</button>
+
+  <script>
+    /** @type {HTMLVideoElement} */
+    const _vid = document.getElementById("vid");
+
+    function playVideo() {
+      _vid.play();
+    }
+    function pauseVideo() {
+      _vid.pause();
+    }
+  </script>
+</body>
+</html>

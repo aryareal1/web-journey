@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Praktik Kontrol Audio Manual</title>
+  </head>
+  <body>
+    <h1>Controls Audio melalui Javascript</h1>
+    <p><i>Mata Kimi ni Aeru Hi - Shion Miyawaki</i></p>
+    <audio src="song.mp3" id="aud" controls></audio>
+    <br />
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="stopAudio()">Stop</button>
+
+    <script>
+      /** @type {HTMLAudioElement} */
+      const _aud = document.getElementById("aud");
+
+      function playAudio() {
+        _aud.play();
+      }
+      function pauseAudio() {
+        _aud.pause();
+      }
+      function stopAudio() {
+        _aud.pause();
+        _aud.currentTime = 0;
+      }
+    </script>
+  </body>
+</html>
