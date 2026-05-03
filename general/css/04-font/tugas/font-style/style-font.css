@@ -1,0 +1,43 @@
+body {
+  line-height: 1.6;
+}
+
+.paragraf-1 {
+  font-size: 16px; /* Unit: px */
+  font-weight: 400;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #94a3b8;
+}
+
+.paragraf-2 {
+  font-size: 1.25rem; /* Unit: rem */
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #38bdf8;
+}
+
+.paragraf-3 {
+  font-size: 120%; /* Unit: % */
+  font-weight: 300;
+  font-style: oblique;
+  font-family: "Playfair Display", serif;
+  color: #fbbf24;
+}
+
+.paragraf-4 {
+  font-size: 1.1em; /* Unit: em */
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Fira Code", monospace;
+  color: #4ade80;
+}
+
+.paragraf-5 {
+  font-size: 1.8vw; /* Unit: vw */
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  color: #f472b6;
+}
