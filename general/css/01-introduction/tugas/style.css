@@ -1,0 +1,20 @@
+h1 {
+  color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  text-align: right;
+}
+
+p {
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-align: left;
+}
